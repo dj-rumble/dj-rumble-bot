@@ -31,8 +31,8 @@ def spawn_player(message):
 
     # Initiate the browser
     browser = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    browser.get("https://dj-rumble.herokuapp.com/rooms/series-openings")
-    # browser.get("https://dj-rumble.herokuapp.com/rooms/short-videos")
+    # browser.get("https://dj-rumble.herokuapp.com/rooms/series-openings")
+    browser.get("https://dj-rumble.herokuapp.com/rooms/short-videos")
     # browser.get("http://localhost:4000/rooms/1979-songs")
 
     # Wait for page to load
